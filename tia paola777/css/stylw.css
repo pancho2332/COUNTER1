@@ -1,0 +1,42 @@
+body{
+    text-align: center;
+    color: aqua;
+    
+}
+img{
+    width: 200px;
+    border-radius: 60%;
+    height: 200px;
+    text-align: center;
+}
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+    font-family: 'sigmar', cursive;
+}
+.container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-self:center;
+    flex-direction: column;
+    background-color: rgba(15, 132, 81);
+    
+}
+h1{
+    font-size: 60px;
+    color: blue;
+    margin-bottom: 40px;
+}
+.show{
+    font-size: 70px;
+    color:rgb(50, 136, 136);
+    margin-bottom: 50px;
+
+}
+.btns{
+    padding: 30px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
